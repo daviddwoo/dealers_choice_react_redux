@@ -1,0 +1,180 @@
+* {
+  background-color: rgba(242, 242, 242, 0.893);
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#home {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#addButton {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#blogContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#blog {
+  width: 600px;
+  height: 170px;
+  display: flex;
+}
+
+#titleContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  display: inline-block;
+  overflow: hidden;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+  animation: typing 2.2s steps(18, end), blink .75s step-end infinite;
+  white-space: nowrap;
+  font-size: 5rem;
+  border-right: 4px solid black;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+@keyframes typing {
+  from { 
+      width: 0% 
+  }
+  to { 
+      width: 31.5% 
+  }
+}
+
+@keyframes blink {
+  from, to { 
+      border-color: transparent 
+  }
+  50% { 
+      border-color: black
+  }
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin-top: 0.5rem;
+  border-radius: 50%;
+}
+
+#smallDetails {
+  padding: 1rem;
+}
+
+#blogCat {
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgba(57, 180, 225, 0.893);
+  margin: 0%;
+}
+
+#blogTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#blogAuthor {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: rgb(144, 144, 144);
+}
+
+#readMore {
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgba(57, 180, 225, 0.893);
+  font-size: small;
+  margin-top: 2%;
+}
+
+#read {
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgba(57, 180, 225, 0.893);
+  font-size: small;
+}
+
+#delete {
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgba(57, 180, 225, 0.893);
+  font-size: small;
+}
+
+#read:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgba(0, 57, 77, 0.893);
+  font-size: small;
+  cursor: pointer;
+}
+
+#delete:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgba(0, 57, 77, 0.893);
+  font-size: small;
+  cursor: pointer;
+}
+
+#blogTitle:hover {
+  font-size: x-large;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgba(57, 180, 225, 0.893);
+  cursor: pointer;
+}
+
+#singleBlogContainer {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#singleBlog {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+#singleBlog > h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#singleBlog > p {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: small;
+  color:rgb(144, 144, 144);
+}
+
+#blogP {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#blogP > p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+
+
